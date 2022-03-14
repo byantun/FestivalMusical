@@ -1,0 +1,43 @@
+{
+  "name": "festivalmusica_inicio",
+  "version": "1.0.0",
+  "description": "Festival Musical con SASS, Gulp y HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch src/scss:build/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byantun/FestivalMusical.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Diego Antunez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byantun/FestivalMusical/issues"
+  },
+  "homepage": "https://github.com/byantun/FestivalMusical#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "cssnano": "^5.1.4",
+    "gulp": "^4.0.2",
+    "gulp-avif": "^1.0.1",
+    "gulp-cache": "^1.1.3",
+    "gulp-css": "^0.1.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-webp": "^4.0.1",
+    "postcss": "^8.4.8",
+    "sass": "^1.49.9"
+  },
+  "dependencies": {
+    "gulp-terser-js": "^5.2.2"
+  }
+}
